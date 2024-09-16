@@ -1,0 +1,132 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+/* start header home  */
+/* start nav section */
+.header-home {
+    background-image: url(../img/img/download.jpg);
+    background-size: cover;
+    height: 700px;
+}
+.header-home img{
+    width: 60%;
+    margin-left: 4px;
+    margin-bottom: 20px;
+}
+.header-home a{
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.header-home button{
+    color: white;
+    background-color: #ed7c6a;
+    padding: 5px 20px;
+    font-family: cursive;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+}
+/* end nav section */
+.header-home h2 {
+    color: white;
+    margin-top: 60px;
+    background-color: #67a892;
+    padding: 35px;
+    font-size: 35px;
+    border-radius: 20px;
+    line-height: 1.7;
+    letter-spacing: 3px;
+}
+
+/* end header home  */
+/* start school section */
+.school-home h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.school-home hr {
+    margin: auto;
+    width: 130px;
+    margin-bottom: 50px;
+    height: 3px;
+    border: none;
+    background-color: red;
+}
+
+.school-home img {
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+/* end school section */
+/* srart touch section */
+.touch-home {
+    background-image: url(../img/img/Path\ 62.png), url(../img/img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    height: 700px;
+    padding-top: 100px;
+}
+
+.touch-home h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.touch-home img {
+    width: 75%;
+}
+
+@media only screen and (max-width:992px) {
+    .touch-home {
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+}
+
+/* end touch section */
+/* start about home */
+.about-home img {
+    width: 75%;
+}
+
+@media only screen and (max-width:768px) {
+    .about-home img {
+        width: 50% !important;
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+/* end about home */
+/* start footer section */
+.footer-home{
+    background-color:rgb(20,126,104);
+    color: #fff;
+    padding-top:80px ;
+    margin-top: 50px;
+    border-radius:175px 175px 0px 0px ;
+}
+.footer-home h3{
+    margin-bottom: 25px;
+}
+.footer-home h4{
+    color: orangered;
+    margin-bottom: 15px;
+}
+.footer-home a{
+    margin-bottom: 10px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+@media only screen and (max-width:760px){
+}
+/* end footer section */
